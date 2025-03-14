@@ -464,4 +464,19 @@ html::-webkit-scrollbar{
   }
   .copyright span{
     color: black;
-  }  
+  }
+  
+  /* footer */
+html{
+    scroll-behavior: smooth;
+  }
+  .arrow{
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+  }
